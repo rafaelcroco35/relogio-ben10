@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 body{
-    
+   
     background: #020a03;
     background-image: url(bg.png);
     background-size: 45vh;
@@ -32,7 +32,6 @@ h1{
 }
 h1:hover{
     scale: 1.2;
-    text-shadow: #2fcc08 0 1px 20px;
 }
 main{
     display: flex;
@@ -41,13 +40,13 @@ main{
     align-items: center;
     align-content: center;
     transition: 2s;
-   
     margin: 0 50%;
 }
 
 main img{
     height: 65vh;
     cursor: pointer;
+    
     
     
 }
@@ -65,6 +64,7 @@ display: block;
 
 .sobreposicao{
     position: relative;
+   
 }
 
 .relogio{
@@ -75,7 +75,7 @@ display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: #2fcc08 0 1px 10px;
+    text-shadow: #259e07 0 1px 10px;
     cursor: pointer;
     display: inline;
     z-index: 1;
@@ -90,11 +90,21 @@ display: block;
     transform: translate(-50%, -50%);
     display: none;
     transition: 1s;
-    
-    
 }
 
 
+.frase{
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: 'DS-DIGI';
+    position: absolute;
+    color: #ffffff;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: #2fcc08 0 1px 10px;
+    cursor: default;
+}
 
 footer{ 
     text-align: center;
