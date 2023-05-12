@@ -13,8 +13,7 @@ function clock() {
     const horas = horaAgora.getHours();
     const minutos = horaAgora.getMinutes();
     const segundos = horaAgora.getSeconds();
-   //const formatoHoras = horas.toString().padStart(2,"0");
-    const formatoHoras = 1
+    const formatoHoras = horas.toString().padStart(2,"0");
    const formatoMinutos = minutos.toString().padStart(2,"0");
    const formatoSegundos = segundos.toString().padStart(2,'0');
    areaRelogio.textContent = ` ${formatoHoras} : ${formatoMinutos} : ${formatoSegundos} `;
